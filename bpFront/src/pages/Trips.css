@@ -1,0 +1,111 @@
+.trips-container {
+    padding: 2rem;
+}
+.trips-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.filters {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    max-width: 1100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filters select,
+.filters input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.filters button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.filters button:hover {
+    background-color: #0056b3;
+}
+
+.filters select:focus,
+.filters input:focus,
+.filters button:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.trips-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.add-trip-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.add-trip-btn:hover {
+    background-color: #218838;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.pagination button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.pagination button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.pagination span {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}

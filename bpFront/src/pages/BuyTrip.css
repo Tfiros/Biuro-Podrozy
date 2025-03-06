@@ -1,0 +1,79 @@
+.buy-trip-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.buy-trip-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+.buy-trip-container p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.buy-trip-container .form-group {
+    margin: 1rem 0;
+}
+
+.buy-trip-container label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.buy-trip-container input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.buy-trip-container button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-trip-container button:hover {
+    background-color: #218838;
+}
+
+.buy-trip-container button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.buy-trip-container .error {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.buy-trip-container .success {
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}

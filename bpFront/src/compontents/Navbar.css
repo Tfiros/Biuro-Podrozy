@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 1rem 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.logged-as {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.login-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.login-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

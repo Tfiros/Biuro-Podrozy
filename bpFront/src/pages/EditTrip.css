@@ -1,0 +1,72 @@
+.edit-trip-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.edit-trip-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+.edit-trip-container .form-group {
+    margin-bottom: 1rem;
+}
+
+.edit-trip-container label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.edit-trip-container input,
+.edit-trip-container textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.edit-trip-container textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.edit-trip-container button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-trip-container button:hover {
+    background-color: #0056b3;
+}
+
+.edit-trip-container button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.edit-trip-container .error {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,6 @@
+@TinProjektBackend_HostAddress = http://localhost:5029
+
+GET {{TinProjektBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
